@@ -1,0 +1,49 @@
+
+.content-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    filter: drop-shadow(10px 10px 20px #0ef);
+    > div{
+        padding: 8px;
+        border: 3px solid rgb(51, 66, 230);
+        background-color: rgb(51, 66, 230);
+        >img{
+            border: 2px solid transparent;
+            border-radius: 20px;
+            filter: drop-shadow(10px 10px 20px black);
+        }
+        >p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            font-size: 1rem;
+            color: white;
+            font-weight: bold;
+        }
+        >div{  
+            width: 100%;
+            background-color: white;
+            text-align: center;
+            justify-content: center;
+            border-radius: 30px;
+            padding: 0.3rem;
+            >div >button{
+                background-color: transparent;
+                border: none;
+                font-weight: bold;
+                color: #4233e6;
+                width: 80%;
+                font-size: 1rem;
+            }
+            > div >.pro{
+                color: orange;
+            }
+            > div > .comp{
+                color: #23e641;
+            }
+        }
+    
+    }
+
+}
